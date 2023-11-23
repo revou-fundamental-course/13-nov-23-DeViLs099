@@ -18,8 +18,8 @@ const images = [
     "assets/ind1.jpg",
     "assets/ind2.jpg",
     "assets/ind3.jpg"
-
 ]
+
 function bannerSlide() {
     i += 1
     if (i == images.length){
@@ -29,3 +29,5 @@ function bannerSlide() {
 }
 
 setInterval(bannerSlide, 1000)
+
+console.log("")
