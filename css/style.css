@@ -1,10 +1,35 @@
 /*Mark Header*/
 
+.header-wrapper >. menu{
+    display: flex;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    padding: 16px 24px;
+}
+
+.header-wrapper > .menu > button{
+    background-color: white;
+    padding: 8px 16px;
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: 0.3s background-color ease-out;
+}
+
 .navigation-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: min-content;
+}
+
+.logo{
+    max-width:10%;
+    max-height: 10%;
 }
 
 .navigation {
@@ -17,7 +42,6 @@
 }
 
 .title-header{
-    background-color:aqua;
     display: flex;
     flex-direction: column;
     align-items: center;

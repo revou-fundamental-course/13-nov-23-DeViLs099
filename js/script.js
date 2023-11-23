@@ -29,5 +29,3 @@ function bannerSlide() {
 }
 
 setInterval(bannerSlide, 1000)
-
-console.log("")
